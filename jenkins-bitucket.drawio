@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2020-06-04T09:17:58.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" version="13.1.14" etag="uMpsNLo6-AcWLhzyeOpo" type="github"><diagram id="wZKfqDwEcs8_CpumQoCy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-04T09:18:33.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="RyGLIDTF5W7cffPupHvy" version="13.1.14" type="github">
+  <diagram id="wZKfqDwEcs8_CpumQoCy" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G44OGAbiWTw6lBxpbEG--2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G44OGAbiWTw6lBxpbEG--3" target="G44OGAbiWTw6lBxpbEG--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--3" value="PR raised" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G44OGAbiWTw6lBxpbEG--5" target="G44OGAbiWTw6lBxpbEG--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--5" value="Job trigger via webhook" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G44OGAbiWTw6lBxpbEG--7" target="G44OGAbiWTw6lBxpbEG--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--7" value="Pipeline to do the terraform plan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--8" value="terrafor-compliance&lt;br&gt;Unit testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G44OGAbiWTw6lBxpbEG--10" target="G44OGAbiWTw6lBxpbEG--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--10" value="Notify bitbucket with results" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--11" value="Approve/Decline based on the result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--12" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="280" as="sourcePoint" />
+            <mxPoint x="680" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--13" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="G44OGAbiWTw6lBxpbEG--10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="279.5" as="sourcePoint" />
+            <mxPoint x="640" y="279.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--14" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="280" as="sourcePoint" />
+            <mxPoint x="480" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="279.5" as="sourcePoint" />
+            <mxPoint x="510" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--16" value="Success" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G44OGAbiWTw6lBxpbEG--17" value="failed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
