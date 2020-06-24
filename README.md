@@ -15,8 +15,8 @@ Bitbucket has an inbuilt webhook mechanisim https://confluence.atlassian.com/bit
 ### Requirments
 
 1. Jenkins plugins
-     a. Generic webhook trigger plugin - https://plugins.jenkins.io/generic-webhook-trigger/ - this plugin allows any webhooks to                trigger a build in jenkins with variables contributed from from JSON/XML.
-     b. Stash Notifier Plugin - https://wiki.jenkins.io/pages/viewpage.action?pageId=66453548 - this plugin notifies bitbucket about the          status of the jenkins build
+     a. Generic webhook trigger plugin - https://plugins.jenkins.io/generic-webhook-trigger/ - this plugin allows any webhooks to trigger a build in jenkins with variables               contributed from from JSON/XML.
+     b. Stash Notifier Plugin - https://wiki.jenkins.io/pages/viewpage.action?pageId=66453548 - this plugin notifies bitbucket about the status of the jenkins build
 
 2. Bitbucket - webhooks need to be configured
 
